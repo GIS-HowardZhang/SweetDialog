@@ -1,35 +1,35 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+ADDED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
 	package
-		ADDED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:11-44
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:11-44
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		ADDED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		ADDED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml:1:1-47
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
 uses-sdk
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
 	android:targetSdkVersion
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		ADDED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		ADDED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
-		INJECTED from /Users/zzh/AndroidStudioProjects/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		ADDED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
+		INJECTED from /Users/zzh/AndroidStudioProjects/MyApp/SweetDialog/library/src/main/AndroidManifest.xml
