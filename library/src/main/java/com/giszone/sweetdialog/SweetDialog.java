@@ -60,6 +60,7 @@ public class SweetDialog extends Dialog implements View.OnClickListener {
     public static final int WARNING_TYPE = 3;
     public static final int CUSTOM_IMAGE_TYPE = 4;
     public static final int PROGRESS_TYPE = 5;
+    private boolean isAnimating;
 
     public static interface OnSweetClickListener {
         public void onClick(SweetDialog sweetDialog);
@@ -85,7 +86,7 @@ public class SweetDialog extends Dialog implements View.OnClickListener {
         mModalOutAnim.setAnimationListener(new Animation.AnimationListener() {
             @Override
             public void onAnimationStart(Animation animation) {
-
+                isAnimating = true;
             }
 
             @Override
@@ -101,6 +102,7 @@ public class SweetDialog extends Dialog implements View.OnClickListener {
                         }
                     }
                 });
+                isAnimating = false;
             }
 
             @Override
@@ -110,6 +112,7 @@ public class SweetDialog extends Dialog implements View.OnClickListener {
         });
         // dialog overlay fade out
         mOverlayOutAnim = new Animation() {
+
             @Override
             protected void applyTransformation(float interpolatedTime, Transformation t) {
                 WindowManager.LayoutParams wlp = getWindow().getAttributes();
@@ -118,6 +121,22 @@ public class SweetDialog extends Dialog implements View.OnClickListener {
             }
         };
         mOverlayOutAnim.setDuration(120);
+        mOverlayOutAnim.setAnimationListener(new Animation.AnimationListener() {
+            @Override
+            public void onAnimationStart(Animation animation) {
+                isAnimating = true;
+            }
+
+            @Override
+            public void onAnimationEnd(Animation animation) {
+                isAnimating = false;
+            }
+
+            @Override
+            public void onAnimationRepeat(Animation animation) {
+
+            }
+        });
     }
 
     protected void onCreate(Bundle savedInstanceState) {
@@ -346,8 +365,10 @@ public class SweetDialog extends Dialog implements View.OnClickListener {
 
     private void dismissWithAnimation(boolean fromCancel) {
         mCloseFromCancel = fromCancel;
-        mConfirmButton.startAnimation(mOverlayOutAnim);
-        mDialogView.startAnimation(mModalOutAnim);
+        if (!isAnimating) {
+            mConfirmButton.startAnimation(mOverlayOutAnim);
+            mDialogView.startAnimation(mModalOutAnim);
+        }
     }
 
     private void changeAlertType(int alertType, boolean fromCreate) {

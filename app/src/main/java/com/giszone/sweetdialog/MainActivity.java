@@ -23,7 +23,8 @@ public class MainActivity extends AppCompatActivity {
 //                .show();
 
         new SweetDialog(this, SweetDialog.CUSTOM_IMAGE_TYPE)
-                .setBackCancelable(false)
+                .setBackCancelable(true)
+                .setOutsideCancelable(true)
                 .setCustomImage(R.drawable.ic_logo_giszone_name)
                 .setTitleText("权限申请")
                 .setContentText("本软件需要您的存储、网络等权限，不涉及您的隐私，请您逐一点按\"始终允许\"！")
